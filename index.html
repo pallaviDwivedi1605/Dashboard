@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- font-awesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <!-- jquery -->
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+    </script>
+    <!-- highcharts.js -->
+    <script src = "https://code.highcharts.com/highcharts.js"></script>
+</head>
+
+<body>
+    <nav id="nav">
+        <img class="logo" src="./Mercados_Logo.png" alt="">
+        <div id="nav-bar" class="navbar">
+            <a href="#" class="nav-item">item-1</a>
+            <a href="#" class="nav-item">item-2</a>
+            <a href="#" class="nav-item">item-3</a>
+            <a href="#" class="nav-item">item-4</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa-solid fa-bars"></i></a>
+        </div>
+    </nav>
+    <div id="container-1" style="margin: 20px 40px;">
+        <a href=""><div id="data-1" class="box">Data-1</div></a>
+        <a href=""><div id="data-2" class="box">Data-2</div></a>
+        <a href=""><div id="data-3" class="box">Data-3</div></a>
+        <a href=""><div id="data-4" class="box">Data-4</div></a>
+        <a href=""><div id="data-5" class="box">Data-5</div></a>
+        <a href=""><div id="data-6" class="box">Data-6</div></a>
+        <a href=""><div id="data-7" class="box">Data-7</div></a>
+        <a href=""><div id="data-8" class="box">Data-8</div></a>
+
+    </div>
+    <div id="container-2" style="margin: 20px 40px;">
+        <div id="table-div" class="box2">
+            <h2>My Table</h2>
+            <table class="my-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Roll</th>
+                        <th>Physics</th>
+                        <th>Chemistry</th>
+                        <th>Math</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Pallavi</td>
+                        <td>101</td>
+                        <td>35</td>
+                        <td>45</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>Palak</td>
+                        <td>102</td>
+                        <td>23</td>
+                        <td>32</td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td>Mayank</td>
+                        <td>103</td>
+                        <td>22</td>
+                        <td>43</td>
+                        <td>35</td>
+                    </tr>
+                    <tr>
+                        <td>Vashu</td>
+                        <td>104</td>
+                        <td>34</td>
+                        <td>45</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>Seema</td>
+                        <td>105</td>
+                        <td>20</td>
+                        <td>10</td>
+                        <td>35</td>
+                    </tr>
+                    <tr>
+                        <td>Gagan</td>
+                        <td>106</td>
+                        <td>12</td>
+                        <td>10</td>
+                        <td>19</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- Line chart -->
+        <div class="line-chart box2">
+            <div id="line-chart"></div>
+       </div>
+
+       <!-- Pie chart -->
+       <div class="pie-chart box2">
+            <div id="pie-chart"></div>
+        </div>
+
+        <!-- Bar chart -->
+        <div class="bar-chart box2">
+            <div id="bar-chart"></div>
+        </div>
+
+        <!-- Area chart -->
+        <div class="area-chart box2">
+            <div id="area-chart"></div>
+       </div>
+   </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
