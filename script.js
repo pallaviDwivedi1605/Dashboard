@@ -1,12 +1,11 @@
-const color = document.querySelector("#data-1");
-const cl = window.getComputedStyle( color ,null).getPropertyValue('background-color');
-console.log(cl);
 
 const values = {};
 plotChart();
 
+const myColor = ['#FB2576','#2F58CD','#2FDD92','#FFC93C'];
+
 async function fetchData() {
-	const response = await fetch('data.json');
+	const response = await fetch('./data.json');
 	const jsonData = await response.json();
 
 	const month = new Set(jsonData.map(obj => obj.Month));
@@ -58,7 +57,7 @@ async function plotChart() {
 			align: 'left'
 		},
 
-		  colors: [color,'yellow','blue','green'],
+		  colors: myColor,
 
 		yAxis: {
 			title: {
@@ -113,7 +112,7 @@ async function plotChart() {
 			align: 'left'
 		},
 
-		  colors: ['red','yellow','blue','green'],
+		  colors: myColor,
 
 		yAxis: {
 			title: {
@@ -174,7 +173,7 @@ async function plotChart() {
 			align: 'left'
 		},
 
-		  colors: ['red','yellow','blue','green'],
+		  colors: myColor,
 
 		yAxis: {
 			title: {
@@ -229,7 +228,7 @@ async function plotChart() {
 			align: 'left'
 		},
 
-		  colors: ['red','yellow','blue','green'],
+		  colors: myColor,
 
 		yAxis: {
 			title: {
