@@ -32,7 +32,7 @@ a{
   }
   
 .navbar a {
-    color: #161515;
+    color: #fdfbfb;
     text-align: center;
     padding: 10px 16px;
     font-size: 17px;
@@ -41,11 +41,11 @@ a{
 }
   
 .navbar a:hover {
-    background: #f5804a;
-    border: 2px solid black;
+    background: #f5763b;
+    border: 2px solid rgb(253, 252, 252);
     border-radius: 30px;
 
-    opacity: 70%;
+    /* opacity: 70%; */
     
 }
 
@@ -76,23 +76,39 @@ a{
     box-shadow: none;
 }
 
-#table-div{
+/* #table-div{
     background-color: #bad3eb;
+} */
+
+
+.blue{
+    background: linear-gradient(264.31deg, #0070D8 -2.96%, rgba(104, 193, 243, 0.56) 89.31%);
+}
+.pink{
+    background: radial-gradient(111.55% 172.38% at -4.2% 100%, #f942fc 0%, #e75e5e 95.15%);
+}
+.green{
+    background: linear-gradient(264.28deg, rgba(3, 250, 117, 0.62) 0%, rgba(2, 255, 118, 0.94) 0.01%, rgba(34, 236, 188, 0.54) 94.46%);
+}
+.yellow{
+    background: linear-gradient(264.53deg, #FD7C04 1.86%, rgba(250, 162, 4, 0.865748) 45.05%, rgba(245, 250, 3, 0.81) 96.63%);
 }
 
 
+
 #data-1, #data-6, .my-table{
+    /* background: linear-gradient(264.31deg, #0070D8 -2.96%, rgba(104, 193, 243, 0.56) 89.31%); */
     background: linear-gradient(264.31deg, #0070D8 -2.96%, rgba(104, 193, 243, 0.56) 89.31%);
 
 }
 #data-2, #data-5{
-    background: radial-gradient(111.55% 172.38% at -4.2% 100%, #F806FD 0%, #FC4040 95.15%)
+    background: radial-gradient(111.55% 172.38% at -4.2% 100%, #f172f3 0%, #e75e5e 95.15%);
 }
 #data-3,#data-8{
     background: linear-gradient(264.28deg, rgba(3, 250, 117, 0.62) 0%, rgba(2, 255, 118, 0.94) 0.01%, rgba(34, 236, 188, 0.54) 94.46%);
 }
 #data-4, #data-7{
-    background: linear-gradient(264.53deg, #FD7C04 1.86%, rgba(250, 162, 4, 0.865748) 45.05%, rgba(245, 250, 3, 0.81) 96.63%);
+    background: linear-gradient(264.53deg, #f38f32 1.86%, rgba(245, 184, 71, 0.866) 45.05%, rgba(242, 245, 78, 0.81) 96.63%);
 }
 
 .box{
@@ -142,6 +158,37 @@ a{
     margin-top: 2rem;
     border-radius: 4px;
     width: 80%;
+}
+
+
+/* footer */
+.footer{
+    background-color: #3c57af;
+    color: #dde0e4;
+    text-align: center;
+    padding: 3rem 4rem;
+}
+
+.footer h4{
+    font-size: 1.5rem;
+}
+
+.footer p{
+    margin: 0.5rem auto;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer li{
+    display: inline;
+    margin: 2rem 0.3rem;
+}
+
+.footer a{
+    color: #dde0e4;
+
 }
 
 /* responsive */

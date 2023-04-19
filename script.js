@@ -28,8 +28,6 @@ const west = values.Western;
 const north = values.Northern;
 const south = values.Southern;
 return {east,west,north, south, month};
-
-
 	
 }
 
